@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+  background-image: url("https://27mi124bz6zg1hqy6n192jkb-wpengine.netdna-ssl.com/wp-content/uploads/2021/06/June-21-Adding-SEL-Components-to-a-High-School-Classroom_web-768x512.jpg");
+}
+h1,p.center{
+   text-align:center;
+}
+table{
+   background-color: grey;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left:50px;
+   padding-right:50px;
+   padding-top:20px;
+   padding-bottom:30px;
+}
+</style>
+</head>
+
+<body>
+<h1>Survey</h1>
+<p class="center">Thank you for taking the time to help us improve the platform</p>
+<table>
+<tr>
+<td>
+<label> Name </label><br> <input type = “text” placeholder="Enter your name">
+</td>
+</tr>
+<tr>
+<td>
+<label> Email</label> <br> <input type = “text” placeholder="Enter your email">
+</td>
+</tr>
+<tr>
+<td>
+<label> Grade (optional) </label><br> <input type = “text” placeholder="Enter your grade">
+</td>
+</tr>
+
+<tr>
+<td>
+<br><label for = “options”><p>Which option best describes your current role? </p></label>
+<select id=”options” name = “options”>
+<option value = “1”> Elementary school</option>
+<option value = “2”> Middle school</option>
+<option value = “3”> High school</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>
+<br><label>What do you think is the hardest subject? </label><br>
+  <input id="Math" name="recommend" type="radio" value="Math">
+  <label for="Math">Math</label><br>
+  <input id="Science" name="recommend" type="radio" value="Science">
+  <label for="Science">Science</label><br>
+  <input id="English" name="recommend" type="radio" value="English">
+  <label for="English">English</label><br>
+  <input id="web development" name="recommend" type="radio" value="web development">
+  <label for="web development">Web Development</label><br>
+  <input id="P.E" name="recommend" type="radio" value="P.E">
+  <label for="P.E">P.E</label><br>
+  <input id="Art" name="recommend" type="radio" value="Art">
+  <label for="Art">Art</label>
+</td>
+</tr>
+
+<tr>
+<td>
+<br><label for = “options1”>What is your favorite subject?</label><br>
+<select id=”options1” name = “options1”>
+<option value = “1”> Web development</option>
+<option value = “2”> Math</option>
+<option value = “3”> English </option>
+<option value = “4”> Science </option>
+<option value = “5”> P.E </option>
+<option value = “6”> Art </option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>
+<br><label> What is your overall grade? </label><br>
+<input type="checkbox" id="1" name="1" value="A">
+<label for="1">A</label><br>
+<input type="checkbox" id="2" name="2" value="B">
+<label for="2">B</label><br>
+<input type="checkbox" id="3" name="3" value="C">
+<label for="2">C</label><br>
+<input type="checkbox" id="4" name="4" value="D">
+<label for="2">D</label><br>
+<input type="checkbox" id="5" name="5" value="E">
+<label for="2">F</label>
+<br>                        
+</td>
+</tr>
+
+<tr>
+<td>
+<br><label>Is there is anything you want from your teacher?</label><br>
+<textarea name="message" rows="10" cols="50" placeholder="Enter your comments here"></textarea>
+</td>
+</tr>
+
+</table>
+</body>
+</html>
